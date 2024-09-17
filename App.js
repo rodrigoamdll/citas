@@ -11,6 +11,8 @@ const App = () => {
   // definir el state de citas
   const [citas, setCitas] = useState([]);
   const [mostrarform, guardarMostrarForm] = useState(false);
+  //Esto es una prueba de fork
+  const [variable,setVariable] = useState()
   useEffect(() => {
     const obtenerCitasStorage = async () => {
       try {
